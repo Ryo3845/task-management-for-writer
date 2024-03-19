@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* common */
+h1, h2 {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+p {
+  margin: 0;
+}
+
+/* style */
+
+body {
+  background: #e6f6ff;
+}
+
+main {
+  background: white;
+}
+
+#select-transaction-month {
+  display: block;
+  margin: 16px;
+  font-size: 16px;
+}
+
+#select-transaction-month label select {
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+main {
+  margin: 32px 16px;
+}
+
+button#indicate-btn {
+  all: unset;
+  margin-top: 16px;
+  padding: 16px;
+  color: white;
+  background: #285ac8;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px #ddd;
+  transition: transform;
+}
+
+button#indicate-btn:hover {
+  opacity: .8;
+}
+
+button#indicate-btn:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+#transaction-table tr {
+  text-align: center;
+}
+
+#transaction-table th, td {
+  border: 1px solid black;
+}
+
+#transaction-table th, tr{
+  width: 160px;
+  height: 32px;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>売上＆進捗管理表</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header></header>
+
+  <main>
+
+    <h1>売上＆進捗管理表</h1>
+    <section id="select-transaction-month">
+      <h2>取引日</h2>
+      <label>
+        取引に該当する年を選んでください
+        <select id="transaction-year">
+          <option value="2024">2024年</option>
+          <option value="2025">2025年</option>
+          <option value="2026">2026年</option>
+          <option value="2027">2027年</option>
+          <option value="2028">2028年</option>
+          <option value="2029">2029年</option>
+        </select>
+      </label>
+      <br>
+      <label>
+        月を選択してください
+        <select id="transaction-month">
+        </select>
+      </label>
+      <br>
+      <button id="indicate-btn">表示する</button>
+    </section>
+
+    <h2><span id="setting-date"></span>売上一覧（日別）</h2>
+    <table id="transaction-table">
+      <tr>
+        <th>日付</th>
+        <th>納品件数</th>
+        <th>売上</th>
+      </tr>
+    </table>
+  </main>
+
+  <footer></footer>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
